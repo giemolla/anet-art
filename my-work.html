@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnetArt</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="Icons/font/css/open-iconic.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Fonts/css/font-awesome.min.css">
+	<link href="node_modules/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/my-work.css">
+</head>
+<body id="top">
+
+	<div class="hero-unit">
+		<h1 class="main-header"><a href="index.html">AnetArt</a></h1>
+		<p class="header-text">Aneta Kargul - rękodzieło, malowanie ścian, wypieki</p>
+	</div>
+
+	<nav class="navigation">
+		<ul class="nav-list">
+			<li class="nav-item"><a href="index.html">Strona główna</a></li>
+			<li class="nav-item"><a href="my-work.html">Moje prace</a></li>
+			<li class="nav-item"><a href="#contact">Kontakt</a></li>
+			<ul class="nav-item social-menu">
+				<li><a href="https://www.facebook.com/aneta.kargul.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+			</ul>
+		</ul>
+		<button type="button" id="open-nav">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</button>
+		<div class="mobile-header-wrapper">
+			<h1 class="mobile-header"><a href="index.html">AnetArt</a></h1>
+		</div>
+		<ul class="nav-list-mobile">
+			<li class="nav-item"><a href="index.html">Strona główna</a></li>
+			<li class="nav-item"><a href="#">Moje prace</a></li>
+			<li class="nav-item"><a href="#about-me">O mnie</a></li>
+			<li class="nav-item"><a href="#contact">Kontakt</a></li>
+			<ul class="nav-item social-menu">
+				<li><a href="https://www.facebook.com/aneta.kargul.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+			</ul>
+		</ul>
+	</nav>
+
+	<div class="main-content">
+		<div class="button-section">
+			<button type="button" id="all" class="btn active">Wszystkie</button>
+			<button type="button" id="painting" class="btn">Malowanie</button>
+			<button type="button" id="handmade" class="btn">Rękodzieło</button>
+			<button type="button" id="drawing" class="btn">Rysunki</button>
+			<button type="button" id="baking" class="btn">Ciasta</button>
+			<button type="button" id="other" class="btn">Inne</button>
+		</div>
+		<ul class="work-items">
+			<li class="item">
+				<img src="img/owl.jpg" class="work-items-img drawing">
+				<div class="item-caption">
+					<a href="img/owl.jpg"  data-lightbox="img-1">
+						<button type="button" class="btn"> <!-- ten button a właścwiwie link trzeba poprawić żeby na hover nie było białe -->
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					</a>
+					<a href="img/wall.jpg"  data-lightbox="img-1"></a>
+					<a href="img/wall.jpg"  data-lightbox="img-1"></a>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/cake.jpg" class="work-items-img baking"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/wall.jpg" class="work-items-img painting"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/tie-dye.jpg" class="work-items-img other"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/handmade.jpg" class="work-items-img handmade"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/wall.jpg" class="work-items-img painting"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/cake.jpg" class="work-items-img baking"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/wall.jpg" class="work-items-img painting"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/handmade.jpg" class="work-items-img handmade"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/handmade.jpg" class="work-items-img handmade"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/owl.jpg" class="work-items-img drawing"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/cake.jpg" class="work-items-img baking"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/owl.jpg" class="work-items-img drawing"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/wall.jpg" class="work-items-img painting"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/owl.jpg" class="work-items-img drawing"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/cake.jpg" class="work-items-img baking"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/handmade.jpg" class="work-items-img handmade"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/owl.jpg" class="work-items-img drawing"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/tie-dye.jpg" class="work-items-img other"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/handmade.jpg" class="work-items-img handmade"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/wall.jpg" class="work-items-img painting"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/tie-dye.jpg" class="work-items-img other"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/handmade.jpg" class="work-items-img handmade"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>
+			<li class="item">
+				<a href="#"><img src="img/owl.jpg" class="work-items-img drawing"></a>
+				<div class="item-caption">
+					<button type="button" class="btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+				</div>
+			</li>	
+		</ul>
+	</div>
+
+	<div class="bottom">
+		<section class="contact" id="contact">
+			<h2 class="header">Kontakt</h2>
+			<div class="contact-half contact-text">
+				<p><br>Jeśli jesteś zainteresowany tym, co robię, zadzwoń do mnie:<br><span class="phone-nr">578 906 629</span><br>lub napisz i zapytaj o szczegóły.<br><br>Jeśli podasz swój numer telefonu, oddzwonię tak szybko, jak będę mogła.<br><br>Możesz mnie też znaleźć na Facebook'u i Instagramie:</p>
+				<p class="social-media">
+					<a href="https://www.facebook.com/Aneta.Kargul.Art/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</p>		
+			</div>
+			<div class="contact-half contact-form-wraper">
+				<form class="contact-form">
+					<input type="text" name="name" id="name" placeholder="*Imię" class="contact-form-input">
+					<input type="text" name="email" id="email" placeholder="*Email" class="contact-form-input">
+					<input type="tel" name="phone-number" id="phone-number" placeholder="Nr telefonu" class="contact-form-input">
+					<textarea rows="5" placeholder="*Wiadomość" class="contact-form-input"></textarea>
+					<button class="contact-button">Wyślij</button>
+				</form>
+			</div>
+		</section>
+	</div>
+
+
+
+<!-- Stopka -->
+
+	<footer class="footer bottom">
+		<div class="footer-text">
+			<p><span>&copy; 2017<br>Aneta Kargul<br>Wszystkie prawa zastrzeżone.</span></p><p>Wykonanie:<br>Karolina Kadela<br><i class="fa fa-phone" aria-hidden="true"></i> +48 733 690 441<br><i class="fa fa-envelope-o" aria-hidden="true"></i> karolina.kadela03@gmail.com</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
+	<script src="node_modules/lightbox2/dist/js/lightbox.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+
+</body>
+</html>

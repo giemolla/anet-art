@@ -1,0 +1,151 @@
+.bottom {
+  width: 100%;
+  background-color: $footer-color;
+  color: white;
+}
+
+.contact {
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    display: flex;
+  }
+}
+
+.contact .header {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  flex: 100%;
+}
+
+.contact-half {
+  flex: 1;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.contact-text {
+  text-align: left;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-text {
+    width: 20%;
+  }
+}
+
+.phone-nr {
+  color: white;
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.contact .social-media a i {
+  color: white;
+  border: 1px solid lighten($footer-color, 25%);
+  width: 40px;
+  height: 40px;
+  background-color: lighten($footer-color, 20%);
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.contact .fa-facebook:hover {
+  color: $f-color;
+  font-size: 24.5px;
+}
+
+.contact .fa-instagram:hover {
+  color: $i-color;
+  font-size: 24.5px;
+}
+
+.contact-form-wraper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-form-input {
+  font-style: italic;
+  font-size: 0.8em;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid lighten($footer-color, 30%);
+  background-color: inherit;
+  padding: 10px 0 10px 1%;
+}
+
+.contact-form-input:focus {
+  color: white;
+}
+
+.contact button {
+  width: 100%;
+  border: 1px solid $main-color;
+  line-height: 40px;
+  background-color: $main-color;
+  color: lighten($footer-color, 20%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+
+.contact button:hover {
+  background-color: lighten($footer-color, 20%);
+  color: $main-color;
+  border: 1px solid $main-color;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-form-input {
+    width: 79%;
+  }
+  .contact button {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .contact-form-input {
+    width: 89%;
+  }
+  .contact button {
+    width: 90%;
+  }
+}
+
+.footer {
+  padding: 20px 0;
+  color: lighten($footer-color, 70%);
+  font-size: 0.7em;
+  line-height: 1.2em;
+  border-top: 1px solid lighten($footer-color, 20%);
+}
+
+
+.footer-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media(min-width: 768px) { 
+  .footer {
+    float: right; 
+    text-align: right;
+  }
+  .footer span {
+    float: left;
+    text-align: left;
+  }
+}

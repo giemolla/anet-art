@@ -1,0 +1,42 @@
+.main-content {
+  display: block;
+  width: 100%; }
+
+.button-section {
+  margin: 50px auto;
+  text-align: center;
+  width: 90%; }
+
+.btn:hover {
+  color: #00c1b1;
+  background-color: white; }
+
+.active {
+  color: #00c1b1;
+  background-color: white; }
+
+.work-items {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 80px; }
+
+.item {
+  display: none; }
+
+.show {
+  display: inline-block; }
+
+@media screen and (min-width: 1024px) {
+  .work-items {
+    text-align-last: center; }
+
+  .item {
+    max-width: 23%; } }
+@media screen and (min-width: 1300px) {
+  .item {
+    max-width: 18%; } }
+.item-caption:hover .btn {
+  color: white;
+  background-color: #00c1b1; }
+
+/*# sourceMappingURL=my-work.css.map */

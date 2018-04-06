@@ -1,0 +1,25 @@
+@import 'variables.scss';
+
+.nav-item-home {
+  flex-basis: 30px;
+}
+
+.oi {
+  font-size: 1.3em;
+}
+
+.social-media {
+  font-size: 2em;
+}
+
+.fa-facebook:hover {
+  color: $f-color;
+}
+
+.fa-instagram:hover {
+  color: $i-color;
+}
+
+.fa-envelope:hover {
+  color: lighten($footer-color, 30%);
+}

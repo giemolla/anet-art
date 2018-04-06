@@ -1,0 +1,21 @@
+@import 'work-items';
+@import 'about-me';
+
+.main-content {
+  width: 90%;
+  margin: 100px auto 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-content {
+    width: 80%;
+    margin: 40px auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content {
+    display: flex;
+    margin: 100px auto;
+  }
+}
