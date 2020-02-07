@@ -2,8 +2,6 @@
 Web application created with Laravel PHP. Application manages portfolio items and displays them on the website.
 
 
-Website can be visited on this address http://anet-art.pl/
-
 ## Application features
 
 ### Website
